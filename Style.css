@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    background-color: black;
+    height: 50px;
+
+}
+
+.navbar { 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+
+}
+
+.navbar ul li {
+    display: inline-block;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px 19px 10px;
+ 
+}
+.navbar ul li a:hover {
+    color: white;
+    background-color: limegreen;
+    transition-duration: 10ms;
+}
